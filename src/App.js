@@ -2,7 +2,6 @@ import React from "react";
 import './App.css';
 import pokemon from "./pokemon.json";
 import PropTypes from "prop-types";
-import { type } from "@testing-library/user-event/dist/type";
 
 const PokemonRow = ({ pokemon1 }) => (
   <tr key={pokemon1.id}>
