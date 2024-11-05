@@ -12,15 +12,15 @@ const PokemonRow = ({ pokemon1 }) => (
 
 );
 
-// PokemonRow.propTypes={
-//   pokemon1: PropTypes.shape({
-//     name:PropTypes.shape({
-//     english: PropTypes.string
-//   }),
-//   type:PropTypes.arrayOf(PropTypes.string),
+PokemonRow.propTypes={
+  pokemon1: PropTypes.shape({
+    name:PropTypes.shape({
+    english: PropTypes.string
+  }),
+  type:PropTypes.arrayOf(PropTypes.string),
 
-//   }),
-// };
+  }),
+};
 
 function App() {
   return (
