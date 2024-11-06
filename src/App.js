@@ -35,7 +35,7 @@ function App() {
       <table width="1000" >
         <thead>
           <tr>
-            <th>Nmae</th>
+            <th>Name</th>
             <th>Type</th>
           </tr>
         </thead>
